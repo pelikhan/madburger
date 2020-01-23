@@ -31,4 +31,4 @@ f 6 6 d d f f f f f e e e f f e f f e e e e e f f e e d b 4 6 e
 . . . . . . f f e b b b b b b 4 4 4 4 4 4 4 4 e e e . . . . . . 
 . . . . . . . . . f f f f f f f c c c c c e e . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="PSu%}VQ{,_ktPS*mXn5/"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="PSu%}VQ{,_ktPS*mXn5/"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id=")IzuN4vsP(s!C4,-|P8="><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="k(2t`qFWz/U|;2YFa4Em"><field name="VAR" id="/j(U1qiggmx(#3._5f@n">mySprite</field></block></value></block></next></block></statement></block></xml>
