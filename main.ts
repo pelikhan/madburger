@@ -31,5 +31,5 @@ let mySprite = sprites.create(img`
     . . . . . . f f e b b b b b b 4 4 4 4 4 4 4 4 e e e . . . . . .
     . . . . . . . . . f f f f f f f c c c c c e e . . . . . . . . .
     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-`, SpriteKind.Food)
+`, SpriteKind.Enemy)
 controller.moveSprite(mySprite)
