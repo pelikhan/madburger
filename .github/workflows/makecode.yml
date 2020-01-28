@@ -21,7 +21,6 @@ jobs:
         run: |
           npm install -g pxt
           pxt target arcade
-          mkdir -p artifacts
       - name: build samd51
         run: |
           pxt clean
@@ -35,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: https://github.com/${{ github.repository }}/releases/${{ env.GITHUB_EVENT_PATH }}/assets 
-          asset_path: built/samd51.uf2
+          asset_path: ./built/binary.uf2
           asset_name: samd51.uf2
           asset_content_type: application/octet-stream
       - name: build stm32f401
@@ -43,17 +42,10 @@ jobs:
           pxt clean
           pxt install --hw stm32f401
           pxt build --hw stm32f401 --cloud
-          cp built/binary.uf2 artifacts/stm32f401.uf2          
       - name: build rpi
         run: |
           pxt clean
           pxt install --hw rpi
           pxt build --hw rpi --cloud
-          cp built/binary.uf2 artifacts/rpi.uf2          
         env:
           CI: true
-      - name: upload artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: uf2s
-          path: artifacts
