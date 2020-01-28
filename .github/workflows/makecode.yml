@@ -33,7 +33,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: https://github.com/${{ github.repository }}/releases/${{ env.GITHUB_EVENT_PATH }}/assets 
+          upload_url: https://github.com/${{ github.repository }}/releases/${{ github.event.release.id }}/assets 
           asset_path: ./built/binary.uf2
           asset_name: samd51.uf2
           asset_content_type: application/octet-stream
