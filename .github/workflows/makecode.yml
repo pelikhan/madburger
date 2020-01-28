@@ -1,7 +1,9 @@
 name: MakeCode
 
-on: [release]
-
+on: 
+  release:
+    types:
+      - created
 jobs:
   build:
 
