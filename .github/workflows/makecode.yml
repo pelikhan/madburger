@@ -28,8 +28,6 @@ jobs:
           pxt clean
           pxt install --hw samd51
           pxt build --hw samd51 --cloud
-        env:
-          CI: true
       - name: upload samd51
         uses: actions/upload-release-asset@v1.0.1
         env:
@@ -49,5 +47,3 @@ jobs:
           pxt clean
           pxt install --hw rpi
           pxt build --hw rpi --cloud
-        env:
-          CI: true
