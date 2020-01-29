@@ -1,6 +1,9 @@
 name: MakeCode Arcade Binary Release
 
-on: [release]
+on: 
+  release:
+    types:
+      - created
 jobs:
   build:
 
@@ -12,14 +15,28 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: install node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: install
+      - name: install makecode
         run: |
           npm install -g pxt
           pxt target arcade
+      - name: build js
+        run: |
+          pxt clean
+          pxt install
+          pxt build --cloud
+      - name: upload js
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./built/debug/binary.js
+          asset_name: arcade.js
+          asset_content_type: application/octet-stream
       - name: build D51
         run: |
           pxt clean
@@ -62,4 +79,3 @@ jobs:
           asset_path: ./built/binary.uf2
           asset_name: arcade-p0.uf2
           asset_content_type: application/octet-stream
-          
