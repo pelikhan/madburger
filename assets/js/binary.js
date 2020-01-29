@@ -1,4 +1,4 @@
-// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.12","target":"arcade","targetVersion":"0.16.23","repo":"pelikhan/madburger#master"}
+// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.13","target":"arcade","targetVersion":"0.16.23","repo":"pelikhan/madburger"}
 // total=1174159 new=6.21% cached=88.45% other=5.34%
 (function (ectx) {
 'use strict';
