@@ -1,6 +1,6 @@
 {
     "name": "madburger",
-    "version": "0.0.5",
+    "version": "0.0.10",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -16,5 +16,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
