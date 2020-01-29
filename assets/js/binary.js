@@ -1,4 +1,4 @@
-// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.6","target":"arcade","targetVersion":"0.16.21"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.16.23/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.4","target":"arcade","targetVersion":"0.16.23"}
 // total=1174162 new=6.21% cached=88.45% other=5.34%
 (function (ectx) {
 'use strict';
@@ -375,7 +375,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P15488(s) {
+function _main___P15578(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -740,15 +740,15 @@ switch (step) {
   case 31:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P730_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex15451);
+    r0 = pxsim.image.ofBuffer(_hex15585);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Food___827;
     s.pc = 32; return s.tmp_0;
   case 32:
     r0 = s.retval;
-    globals.mySprite___15448 = (r0);
+    globals.mySprite___15582 = (r0);
     s.tmp_0 = controller_moveSprite__P711_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___15448;
+    s.tmp_0.arg0 = globals.mySprite___15582;
     s.tmp_0.arg1 = 1001;
     s.tmp_0.arg2 = 100;
     s.pc = 33; return s.tmp_0;
@@ -758,14 +758,14 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P15488.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P15488.continuations = [  ]
-_main___P15488.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P15578.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P15578.continuations = [  ]
+_main___P15578.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
 
-function _main___P15488_mk(s) {
+function _main___P15578_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P15488, depth: s.depth + 1,
+        parent: s, fn: _main___P15578, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -790,7 +790,7 @@ const _hex1580 = pxsim.BufferMethods.createBufferFromHex("8704200020000000000000
 const _hex1583 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cc00000000000000b0bbbbbbbbcb00c0cd000000000000001bddddddddbd0c1ccd000000000000b011cbccccccbc0c1ccd000000000000b01d6c666666bc0cbccd000000000000b01d6c616661bc0c1ccd000000000000b01d6c161666bccc1bcd000000000000b01d6c666166bcccbbcd000000000000b01d6c666666bccc1bcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666661bcccbbcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666666bc0c1ccd000000000000b01dcbccccccbc0cbccd000000000000c0b1bbbbbbbbbb0cdccb000000000000c0bbbbbbbbbbcb00dc0c00000000000000cccccccccc0c00cc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex1586 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004004000000000000000000000000000054450000000000000000000000440b00bbbb00b0440000000000000040550b00000000b0550400000000000040b5000044bb00005b04000000000000b00b0044ddddbb00b00b0000000000000000405d55d5dd0b00000000000000000000d4555555ddbd0000000000000000000054555555d5bd0000000000000000b44055555555d5dd0b4b000000000040b54055555555d5dd0b5b040000000040b54055555555d5dd0b5b040000000000b44055115555d5dd0b4b000000000000000054115555d5bd00000000000000000000d4555555ddbd00000000000000000000405d55d5dd0b0000000000000000b00b0044ddddbb00b00b00000000000040b5000044bb00005b0400000000000040550b00000000b0550400000000000000440b00bbbb00b0440000000000000000000000544500000000000000000000000000004004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex1589 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb00000000000000000000000000b055bb00bbbbbb000000000000000000b0b5bdbcbbbbddcb0000000000000000b0dbcb5b5555bbdd0c00000000000000b0cbdcbdbb5b55dbcd0000000000000000c0dddb11d15bb5bd0c00000000000000bbbd111111b155bb0c00000000000000db1b111111115bb5cb00000000000000db1bb11d1199b9d5cb00000000000000db1b11bb9199b955cb000000000000005b1b11b19b99995bcb000000000000005b1d1111bb99995ccb00000000000000b0b511bbbb99995ccb00000000000000b0d51d919999d95b0b00000000000000005bdb919999c9d50b0000000000000000b0d51b99d9bcb5000000000000000000005bd5bbbc550b00000000000000000000b05b5555bd000000000000000000000000b0bbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex15451 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000eeff0080f8ffff0f00000000000000eebbcbef7887be6bc60f0000000000ee6666b6fb7667ffbe66fc00000000e06bb66666bb2f62f8ff6df600000000beb6bbbb66b6ec6286ffdd6b0f0000c0bbbb44b46b66fb2276fedfb40f0000bc445b4b44b466fb2276eedfbdfb00004c44b444444466c62277ff4f4dfb00c04444444444446bb62c67ffef4deb00c044444444b44b64b62c87efff4dbb0fc0444b44445b4bb4b62cf6eefe4db40f4cb4b54444bb44b4b62c86effe4db40f4cb44b4444444444bb2c66effe4db40f4c44444444444444bb2c76e7ff4db40f4c44444444444444bb2c77e7ff4db40f4c44444444444444b42c77e6ee4d440f464444bb44444444b42c77e6ef4d440c46bb445b4b444444b42c77e6ef4d440c465b4bb444444444b42c77e8ee4d440c46b4444444444444b42c67e8ee4d440c4644444444b44b44b42c66eefe4d440c6044444b44b4b544b42c66effe4d440e6044b4b54444bb44b42c76fffe4d440e6044444b44444444b42c77eeff4de4000046444444444444c42267ee4f4de400004644b44b444444f422f7eede4be40000b044b4b5444444cb72f7eede440e0000004b44bb4444442c62ffefbd440e0000006044444444b42c66ffbe4be40000000000e64444b4fb7686ffbb64ee000000000000eebbcbef7867be66e60e00000000000000eeff0088f8ffef0e000000")
+const _hex15585 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000eeff0080f8ffff0f00000000000000eebbcbef7887be6bc60f0000000000ee6666b6fb7667ffbe66fc00000000e06bb66666bb2f62f8ff6df600000000beb6bbbb66b6ec6286ffdd6b0f0000c0bbbb44b46b66fb2276fedfb40f0000bc445b4b44b466fb2276eedfbdfb00004c44b444444466c62277ff4f4dfb00c04444444444446bb62c67ffef4deb00c044444444b44b64b62c87efff4dbb0fc0444b44445b4bb4b62cf6eefe4db40f4cb4b54444bb44b4b62c86effe4db40f4cb44b4444444444bb2c66effe4db40f4c44444444444444bb2c76e7ff4db40f4c44444444444444bb2c77e7ff4db40f4c44444444444444b42c77e6ee4d440f464444bb44444444b42c77e6ef4d440c46bb445b4b444444b42c77e6ef4d440c465b4bb444444444b42c77e8ee4d440c46b4444444444444b42c67e8ee4d440c4644444444b44b44b42c66eefe4d440c6044444b44b4b544b42c66effe4d440e6044b4b54444bb44b42c76fffe4d440e6044444b44444444b42c77eeff4de4000046444444444444c42267ee4f4de400004644b44b444444f422f7eede4be40000b044b4b5444444cb72f7eede440e0000004b44bb4444442c62ffefbd440e0000006044444444b42c66ffbe4be40000000000e64444b4fb7686ffbb64ee000000000000eebbcbef7867be66e60e00000000000000eeff0088f8ffef0e000000")
 
 
 
@@ -1393,8 +1393,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller_moveSprite__P711.info = {"start":18919,"length":133,"line":574,"column":4,"endLine":576,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["sprite","vx","vy"]}
-controller_moveSprite__P711.info = {"start":18919,"length":133,"line":574,"column":4,"endLine":576,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["sprite","vx","vy"]}
+controller_moveSprite__P711.info = {"start":18925,"length":133,"line":574,"column":4,"endLine":576,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["sprite","vx","vy"]}
+controller_moveSprite__P711.info = {"start":18925,"length":133,"line":574,"column":4,"endLine":576,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["sprite","vx","vy"]}
 
 function controller_moveSprite__P711_mk(s) {
     checkStack(s.depth);
@@ -1554,8 +1554,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller_Controller_moveSprite__P696.info = {"start":10866,"length":608,"line":355,"column":8,"endLine":371,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["this","sprite","vx","vy"]}
-controller_Controller_moveSprite__P696.info = {"start":10866,"length":608,"line":355,"column":8,"endLine":371,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["this","sprite","vx","vy"]}
+controller_Controller_moveSprite__P696.info = {"start":10872,"length":608,"line":355,"column":8,"endLine":371,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["this","sprite","vx","vy"]}
+controller_Controller_moveSprite__P696.info = {"start":10872,"length":608,"line":355,"column":8,"endLine":371,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"moveSprite","argumentNames":["this","sprite","vx","vy"]}
 
 function controller_Controller_moveSprite__P696_mk(s) {
     checkStack(s.depth);
@@ -1603,8 +1603,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P3789.info = {"start":11086,"length":26,"line":358,"column":50,"endLine":358,"endColumn":76,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["cp"]}
-inline__P3789.info = {"start":11086,"length":26,"line":358,"column":50,"endLine":358,"endColumn":76,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["cp"]}
+inline__P3789.info = {"start":11092,"length":26,"line":358,"column":50,"endLine":358,"endColumn":76,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["cp"]}
+inline__P3789.info = {"start":11092,"length":26,"line":358,"column":50,"endLine":358,"endColumn":76,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["cp"]}
 
 function inline__P3789_mk(s) {
     checkStack(s.depth);
@@ -3787,8 +3787,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_setKind__P766.info = {"start":9979,"length":663,"line":365,"column":4,"endLine":385,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setKind","argumentNames":["this","value"]}
-Sprite_setKind__P766.info = {"start":9979,"length":663,"line":365,"column":4,"endLine":385,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setKind","argumentNames":["this","value"]}
+Sprite_setKind__P766.info = {"start":9955,"length":663,"line":365,"column":4,"endLine":385,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setKind","argumentNames":["this","value"]}
+Sprite_setKind__P766.info = {"start":9955,"length":663,"line":365,"column":4,"endLine":385,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setKind","argumentNames":["this","value"]}
 
 function Sprite_setKind__P766_mk(s) {
     checkStack(s.depth);
@@ -4902,8 +4902,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_particleSources__P1696.info = {"start":12831,"length":119,"line":420,"column":4,"endLine":423,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"particleSources","argumentNames":[]}
-particles_particleSources__P1696.info = {"start":12831,"length":119,"line":420,"column":4,"endLine":423,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"particleSources","argumentNames":[]}
+particles_particleSources__P1696.info = {"start":12830,"length":119,"line":420,"column":4,"endLine":423,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"particleSources","argumentNames":[]}
+particles_particleSources__P1696.info = {"start":12830,"length":119,"line":420,"column":4,"endLine":423,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"particleSources","argumentNames":[]}
 
 function particles_particleSources__P1696_mk(s) {
     checkStack(s.depth);
@@ -4942,8 +4942,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_sortSources__P1684.info = {"start":10009,"length":129,"line":331,"column":4,"endLine":333,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"sortSources","argumentNames":["sources"]}
-particles_sortSources__P1684.info = {"start":10009,"length":129,"line":331,"column":4,"endLine":333,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"sortSources","argumentNames":["sources"]}
+particles_sortSources__P1684.info = {"start":10008,"length":129,"line":331,"column":4,"endLine":333,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"sortSources","argumentNames":["sources"]}
+particles_sortSources__P1684.info = {"start":10008,"length":129,"line":331,"column":4,"endLine":333,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"sortSources","argumentNames":["sources"]}
 
 function particles_sortSources__P1684_mk(s) {
     checkStack(s.depth);
@@ -4996,8 +4996,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P4972.info = {"start":10080,"length":50,"line":332,"column":21,"endLine":332,"endColumn":71,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["a","b"]}
-inline__P4972.info = {"start":10080,"length":50,"line":332,"column":21,"endLine":332,"endColumn":71,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["a","b"]}
+inline__P4972.info = {"start":10079,"length":50,"line":332,"column":21,"endLine":332,"endColumn":71,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["a","b"]}
+inline__P4972.info = {"start":10079,"length":50,"line":332,"column":21,"endLine":332,"endColumn":71,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["a","b"]}
 
 function inline__P4972_mk(s) {
     checkStack(s.depth);
@@ -5441,8 +5441,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_init__P1681.info = {"start":9219,"length":276,"line":303,"column":4,"endLine":310,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"init","argumentNames":[]}
-particles_init__P1681.info = {"start":9219,"length":276,"line":303,"column":4,"endLine":310,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"init","argumentNames":[]}
+particles_init__P1681.info = {"start":9218,"length":276,"line":303,"column":4,"endLine":310,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"init","argumentNames":[]}
+particles_init__P1681.info = {"start":9218,"length":276,"line":303,"column":4,"endLine":310,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"init","argumentNames":[]}
 
 function particles_init__P1681_mk(s) {
     checkStack(s.depth);
@@ -5497,8 +5497,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_pruneParticles__P1683.info = {"start":9847,"length":156,"line":326,"column":4,"endLine":329,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"pruneParticles","argumentNames":[]}
-particles_pruneParticles__P1683.info = {"start":9847,"length":156,"line":326,"column":4,"endLine":329,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"pruneParticles","argumentNames":[]}
+particles_pruneParticles__P1683.info = {"start":9846,"length":156,"line":326,"column":4,"endLine":329,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"pruneParticles","argumentNames":[]}
+particles_pruneParticles__P1683.info = {"start":9846,"length":156,"line":326,"column":4,"endLine":329,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"pruneParticles","argumentNames":[]}
 
 function particles_pruneParticles__P1683_mk(s) {
     checkStack(s.depth);
@@ -5537,8 +5537,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P5134.info = {"start":9980,"length":15,"line":328,"column":62,"endLine":328,"endColumn":77,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
-inline__P5134.info = {"start":9980,"length":15,"line":328,"column":62,"endLine":328,"endColumn":77,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P5134.info = {"start":9979,"length":15,"line":328,"column":62,"endLine":328,"endColumn":77,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P5134.info = {"start":9979,"length":15,"line":328,"column":62,"endLine":328,"endColumn":77,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
 
 function inline__P5134_mk(s) {
     checkStack(s.depth);
@@ -5893,8 +5893,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_updateParticles__P1682.info = {"start":9501,"length":340,"line":312,"column":4,"endLine":324,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticles","argumentNames":[]}
-particles_updateParticles__P1682.info = {"start":9501,"length":340,"line":312,"column":4,"endLine":324,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticles","argumentNames":[]}
+particles_updateParticles__P1682.info = {"start":9500,"length":340,"line":312,"column":4,"endLine":324,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticles","argumentNames":[]}
+particles_updateParticles__P1682.info = {"start":9500,"length":340,"line":312,"column":4,"endLine":324,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticles","argumentNames":[]}
 
 function particles_updateParticles__P1682_mk(s) {
     checkStack(s.depth);
@@ -6344,8 +6344,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_ParticleSource_updateParticle__P1675.info = {"start":8231,"length":357,"line":276,"column":8,"endLine":284,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticle","argumentNames":["this","p","fixedDt"]}
-particles_ParticleSource_updateParticle__P1675.info = {"start":8231,"length":357,"line":276,"column":8,"endLine":284,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticle","argumentNames":["this","p","fixedDt"]}
+particles_ParticleSource_updateParticle__P1675.info = {"start":8230,"length":357,"line":276,"column":8,"endLine":284,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticle","argumentNames":["this","p","fixedDt"]}
+particles_ParticleSource_updateParticle__P1675.info = {"start":8230,"length":357,"line":276,"column":8,"endLine":284,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"updateParticle","argumentNames":["this","p","fixedDt"]}
 
 function particles_ParticleSource_updateParticle__P1675_mk(s) {
     checkStack(s.depth);
@@ -8402,8 +8402,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_ParticleSource_setFactory__P1674.info = {"start":8107,"length":114,"line":271,"column":8,"endLine":274,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"setFactory","argumentNames":["this","factory"]}
-particles_ParticleSource_setFactory__P1674.info = {"start":8107,"length":114,"line":271,"column":8,"endLine":274,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"setFactory","argumentNames":["this","factory"]}
+particles_ParticleSource_setFactory__P1674.info = {"start":8106,"length":114,"line":271,"column":8,"endLine":274,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"setFactory","argumentNames":["this","factory"]}
+particles_ParticleSource_setFactory__P1674.info = {"start":8106,"length":114,"line":271,"column":8,"endLine":274,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"setFactory","argumentNames":["this","factory"]}
 
 function particles_ParticleSource_setFactory__P1674_mk(s) {
     checkStack(s.depth);
@@ -13532,8 +13532,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller___update__P709.info = {"start":17961,"length":137,"line":550,"column":4,"endLine":553,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["dt"]}
-controller___update__P709.info = {"start":17961,"length":137,"line":550,"column":4,"endLine":553,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["dt"]}
+controller___update__P709.info = {"start":17967,"length":137,"line":550,"column":4,"endLine":553,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["dt"]}
+controller___update__P709.info = {"start":17967,"length":137,"line":550,"column":4,"endLine":553,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["dt"]}
 
 function controller___update__P709_mk(s) {
     checkStack(s.depth);
@@ -13575,8 +13575,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P7552.info = {"start":18063,"length":27,"line":552,"column":26,"endLine":552,"endColumn":53,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["ctrl"]}
-inline__P7552.info = {"start":18063,"length":27,"line":552,"column":26,"endLine":552,"endColumn":53,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["ctrl"]}
+inline__P7552.info = {"start":18069,"length":27,"line":552,"column":26,"endLine":552,"endColumn":53,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["ctrl"]}
+inline__P7552.info = {"start":18069,"length":27,"line":552,"column":26,"endLine":552,"endColumn":53,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["ctrl"]}
 
 function inline__P7552_mk(s) {
     checkStack(s.depth);
@@ -13632,8 +13632,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller_Controller___update__P706.info = {"start":17439,"length":124,"line":532,"column":8,"endLine":535,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["this","dtms"]}
-controller_Controller___update__P706.info = {"start":17439,"length":124,"line":532,"column":8,"endLine":535,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["this","dtms"]}
+controller_Controller___update__P706.info = {"start":17445,"length":124,"line":532,"column":8,"endLine":535,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["this","dtms"]}
+controller_Controller___update__P706.info = {"start":17445,"length":124,"line":532,"column":8,"endLine":535,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__update","argumentNames":["this","dtms"]}
 
 function controller_Controller___update__P706_mk(s) {
     checkStack(s.depth);
@@ -13677,8 +13677,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P7565.info = {"start":17526,"length":25,"line":534,"column":33,"endLine":534,"endColumn":58,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["btn"]}
-inline__P7565.info = {"start":17526,"length":25,"line":534,"column":33,"endLine":534,"endColumn":58,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["btn"]}
+inline__P7565.info = {"start":17532,"length":25,"line":534,"column":33,"endLine":534,"endColumn":58,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["btn"]}
+inline__P7565.info = {"start":17532,"length":25,"line":534,"column":33,"endLine":534,"endColumn":58,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["btn"]}
 
 function inline__P7565_mk(s) {
     checkStack(s.depth);
@@ -14333,8 +14333,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller_Controller___preUpdate__P705.info = {"start":14894,"length":2535,"line":466,"column":8,"endLine":530,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__preUpdate","argumentNames":["this"]}
-controller_Controller___preUpdate__P705.info = {"start":14894,"length":2535,"line":466,"column":8,"endLine":530,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__preUpdate","argumentNames":["this"]}
+controller_Controller___preUpdate__P705.info = {"start":14900,"length":2535,"line":466,"column":8,"endLine":530,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__preUpdate","argumentNames":["this"]}
+controller_Controller___preUpdate__P705.info = {"start":14900,"length":2535,"line":466,"column":8,"endLine":530,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"__preUpdate","argumentNames":["this"]}
 
 function controller_Controller___preUpdate__P705_mk(s) {
     checkStack(s.depth);
@@ -14519,8 +14519,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P7425.info = {"start":16077,"length":1171,"line":497,"column":44,"endLine":525,"endColumn":13,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["controlledSprite"]}
-inline__P7425.info = {"start":16077,"length":1171,"line":497,"column":44,"endLine":525,"endColumn":13,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["controlledSprite"]}
+inline__P7425.info = {"start":16083,"length":1171,"line":497,"column":44,"endLine":525,"endColumn":13,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["controlledSprite"]}
+inline__P7425.info = {"start":16083,"length":1171,"line":497,"column":44,"endLine":525,"endColumn":13,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["controlledSprite"]}
 
 function inline__P7425_mk(s) {
     checkStack(s.depth);
@@ -14569,8 +14569,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P7483.info = {"start":17375,"length":42,"line":529,"column":28,"endLine":529,"endColumn":70,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["s"]}
-inline__P7483.info = {"start":17375,"length":42,"line":529,"column":28,"endLine":529,"endColumn":70,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["s"]}
+inline__P7483.info = {"start":17381,"length":42,"line":529,"column":28,"endLine":529,"endColumn":70,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["s"]}
+inline__P7483.info = {"start":17381,"length":42,"line":529,"column":28,"endLine":529,"endColumn":70,"fileName":"pxt_modules/game/controller.ts","functionName":"inline","argumentNames":["s"]}
 
 function inline__P7483_mk(s) {
     checkStack(s.depth);
@@ -14654,8 +14654,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller_Controller_button__P697.info = {"start":11484,"length":105,"line":373,"column":8,"endLine":375,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"button","argumentNames":["this","button"]}
-controller_Controller_button__P697.info = {"start":11484,"length":105,"line":373,"column":8,"endLine":375,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"button","argumentNames":["this","button"]}
+controller_Controller_button__P697.info = {"start":11490,"length":105,"line":373,"column":8,"endLine":375,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"button","argumentNames":["this","button"]}
+controller_Controller_button__P697.info = {"start":11490,"length":105,"line":373,"column":8,"endLine":375,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"button","argumentNames":["this","button"]}
 
 function controller_Controller_button__P697_mk(s) {
     checkStack(s.depth);
@@ -14738,9 +14738,9 @@ switch (step) {
     return leaveAccessor(s, r0)
   default: oops()
 } } }
-controller_Controller_right__P690.info = {"start":9220,"length":79,"line":296,"column":8,"endLine":298,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"right","argumentNames":["this"]}
+controller_Controller_right__P690.info = {"start":9218,"length":79,"line":296,"column":8,"endLine":298,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"right","argumentNames":["this"]}
 controller_Controller_right__P690.isGetter = true;
-controller_Controller_right__P690.info = {"start":9220,"length":79,"line":296,"column":8,"endLine":298,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"right","argumentNames":["this"]}
+controller_Controller_right__P690.info = {"start":9218,"length":79,"line":296,"column":8,"endLine":298,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"right","argumentNames":["this"]}
 
 function controller_Controller_right__P690_mk(s) {
     checkStack(s.depth);
@@ -14780,9 +14780,9 @@ switch (step) {
     return leaveAccessor(s, r0)
   default: oops()
 } } }
-controller_Controller_left__P689.info = {"start":9063,"length":77,"line":288,"column":8,"endLine":290,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"left","argumentNames":["this"]}
+controller_Controller_left__P689.info = {"start":9062,"length":77,"line":288,"column":8,"endLine":290,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"left","argumentNames":["this"]}
 controller_Controller_left__P689.isGetter = true;
-controller_Controller_left__P689.info = {"start":9063,"length":77,"line":288,"column":8,"endLine":290,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"left","argumentNames":["this"]}
+controller_Controller_left__P689.info = {"start":9062,"length":77,"line":288,"column":8,"endLine":290,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"left","argumentNames":["this"]}
 
 function controller_Controller_left__P689_mk(s) {
     checkStack(s.depth);
@@ -15488,8 +15488,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller_pauseUntilAnyButtonIsPressed__P712.info = {"start":19144,"length":96,"line":583,"column":4,"endLine":585,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"pauseUntilAnyButtonIsPressed","argumentNames":[]}
-controller_pauseUntilAnyButtonIsPressed__P712.info = {"start":19144,"length":96,"line":583,"column":4,"endLine":585,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"pauseUntilAnyButtonIsPressed","argumentNames":[]}
+controller_pauseUntilAnyButtonIsPressed__P712.info = {"start":19150,"length":96,"line":583,"column":4,"endLine":585,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"pauseUntilAnyButtonIsPressed","argumentNames":[]}
+controller_pauseUntilAnyButtonIsPressed__P712.info = {"start":19150,"length":96,"line":583,"column":4,"endLine":585,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"pauseUntilAnyButtonIsPressed","argumentNames":[]}
 
 function controller_pauseUntilAnyButtonIsPressed__P712_mk(s) {
     checkStack(s.depth);
@@ -16976,8 +16976,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_destroy__P782.info = {"start":27078,"length":293,"line":819,"column":4,"endLine":828,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"destroy","argumentNames":["this","effect","duration"]}
-Sprite_destroy__P782.info = {"start":27078,"length":293,"line":819,"column":4,"endLine":828,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"destroy","argumentNames":["this","effect","duration"]}
+Sprite_destroy__P782.info = {"start":27054,"length":293,"line":819,"column":4,"endLine":828,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"destroy","argumentNames":["this","effect","duration"]}
+Sprite_destroy__P782.info = {"start":27054,"length":293,"line":819,"column":4,"endLine":828,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"destroy","argumentNames":["this","effect","duration"]}
 
 function Sprite_destroy__P782_mk(s) {
     checkStack(s.depth);
@@ -17760,8 +17760,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_setFlag__P774.info = {"start":22877,"length":292,"line":697,"column":4,"endLine":704,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setFlag","argumentNames":["this","flag","on"]}
-Sprite_setFlag__P774.info = {"start":22877,"length":292,"line":697,"column":4,"endLine":704,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setFlag","argumentNames":["this","flag","on"]}
+Sprite_setFlag__P774.info = {"start":22853,"length":292,"line":697,"column":4,"endLine":704,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setFlag","argumentNames":["this","flag","on"]}
+Sprite_setFlag__P774.info = {"start":22853,"length":292,"line":697,"column":4,"endLine":704,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"setFlag","argumentNames":["this","flag","on"]}
 
 function Sprite_setFlag__P774_mk(s) {
     checkStack(s.depth);
@@ -17910,8 +17910,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite__destroyCore__P783.info = {"start":27377,"length":693,"line":830,"column":4,"endLine":846,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"_destroyCore","argumentNames":["this"]}
-Sprite__destroyCore__P783.info = {"start":27377,"length":693,"line":830,"column":4,"endLine":846,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"_destroyCore","argumentNames":["this"]}
+Sprite__destroyCore__P783.info = {"start":27353,"length":693,"line":830,"column":4,"endLine":846,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"_destroyCore","argumentNames":["this"]}
+Sprite__destroyCore__P783.info = {"start":27353,"length":693,"line":830,"column":4,"endLine":846,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"_destroyCore","argumentNames":["this"]}
 
 function Sprite__destroyCore__P783_mk(s) {
     checkStack(s.depth);
@@ -17956,8 +17956,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P8683.info = {"start":27993,"length":26,"line":844,"column":20,"endLine":844,"endColumn":46,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
-inline__P8683.info = {"start":27993,"length":26,"line":844,"column":20,"endLine":844,"endColumn":46,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P8683.info = {"start":27969,"length":26,"line":844,"column":20,"endLine":844,"endColumn":46,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P8683.info = {"start":27969,"length":26,"line":844,"column":20,"endLine":844,"endColumn":46,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
 
 function inline__P8683_mk(s) {
     checkStack(s.depth);
@@ -18005,8 +18005,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P8689.info = {"start":28042,"length":20,"line":845,"column":21,"endLine":845,"endColumn":41,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
-inline__P8689.info = {"start":28042,"length":20,"line":845,"column":21,"endLine":845,"endColumn":41,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P8689.info = {"start":28018,"length":20,"line":845,"column":21,"endLine":845,"endColumn":41,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P8689.info = {"start":28018,"length":20,"line":845,"column":21,"endLine":845,"endColumn":41,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
 
 function inline__P8689_mk(s) {
     checkStack(s.depth);
@@ -18078,8 +18078,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_kind__P765.info = {"start":9711,"length":41,"line":354,"column":4,"endLine":356,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"kind","argumentNames":["this"]}
-Sprite_kind__P765.info = {"start":9711,"length":41,"line":354,"column":4,"endLine":356,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"kind","argumentNames":["this"]}
+Sprite_kind__P765.info = {"start":9687,"length":41,"line":354,"column":4,"endLine":356,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"kind","argumentNames":["this"]}
+Sprite_kind__P765.info = {"start":9687,"length":41,"line":354,"column":4,"endLine":356,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"kind","argumentNames":["this"]}
 
 function Sprite_kind__P765_mk(s) {
     checkStack(s.depth);
@@ -18256,8 +18256,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_enableAll__P1695.info = {"start":12632,"length":193,"line":412,"column":4,"endLine":418,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"enableAll","argumentNames":[]}
-particles_enableAll__P1695.info = {"start":12632,"length":193,"line":412,"column":4,"endLine":418,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"enableAll","argumentNames":[]}
+particles_enableAll__P1695.info = {"start":12631,"length":193,"line":412,"column":4,"endLine":418,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"enableAll","argumentNames":[]}
+particles_enableAll__P1695.info = {"start":12631,"length":193,"line":412,"column":4,"endLine":418,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"enableAll","argumentNames":[]}
 
 function particles_enableAll__P1695_mk(s) {
     checkStack(s.depth);
@@ -18296,8 +18296,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P8556.info = {"start":12756,"length":21,"line":415,"column":28,"endLine":415,"endColumn":49,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
-inline__P8556.info = {"start":12756,"length":21,"line":415,"column":28,"endLine":415,"endColumn":49,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P8556.info = {"start":12755,"length":21,"line":415,"column":28,"endLine":415,"endColumn":49,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P8556.info = {"start":12755,"length":21,"line":415,"column":28,"endLine":415,"endColumn":49,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
 
 function inline__P8556_mk(s) {
     checkStack(s.depth);
@@ -18481,8 +18481,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller__setUserEventsEnabled__P713.info = {"start":19246,"length":101,"line":587,"column":4,"endLine":589,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"_setUserEventsEnabled","argumentNames":["enabled"]}
-controller__setUserEventsEnabled__P713.info = {"start":19246,"length":101,"line":587,"column":4,"endLine":589,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"_setUserEventsEnabled","argumentNames":["enabled"]}
+controller__setUserEventsEnabled__P713.info = {"start":19252,"length":101,"line":587,"column":4,"endLine":589,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"_setUserEventsEnabled","argumentNames":["enabled"]}
+controller__setUserEventsEnabled__P713.info = {"start":19252,"length":101,"line":587,"column":4,"endLine":589,"endColumn":5,"fileName":"pxt_modules/game/controller.ts","functionName":"_setUserEventsEnabled","argumentNames":["enabled"]}
 
 function controller__setUserEventsEnabled__P713_mk(s) {
     checkStack(s.depth);
@@ -23088,8 +23088,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_top__P762.info = {"start":8840,"length":256,"line":322,"column":4,"endLine":332,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this","value"]}
-Sprite_top__P762.info = {"start":8840,"length":256,"line":322,"column":4,"endLine":332,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this","value"]}
+Sprite_top__P762.info = {"start":8816,"length":256,"line":322,"column":4,"endLine":332,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this","value"]}
+Sprite_top__P762.info = {"start":8816,"length":256,"line":322,"column":4,"endLine":332,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this","value"]}
 
 function Sprite_top__P762_mk(s) {
     checkStack(s.depth);
@@ -23174,9 +23174,9 @@ switch (step) {
     return leaveAccessor(s, r0)
   default: oops()
 } } }
-Sprite_top__P761.info = {"start":8699,"length":51,"line":317,"column":4,"endLine":319,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this"]}
+Sprite_top__P761.info = {"start":8687,"length":51,"line":317,"column":4,"endLine":319,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this"]}
 Sprite_top__P761.isGetter = true;
-Sprite_top__P761.info = {"start":8699,"length":51,"line":317,"column":4,"endLine":319,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this"]}
+Sprite_top__P761.info = {"start":8687,"length":51,"line":317,"column":4,"endLine":319,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"top","argumentNames":["this"]}
 
 function Sprite_top__P761_mk(s) {
     checkStack(s.depth);
@@ -24209,8 +24209,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_disableAll__P1694.info = {"start":12353,"length":195,"line":401,"column":4,"endLine":407,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"disableAll","argumentNames":[]}
-particles_disableAll__P1694.info = {"start":12353,"length":195,"line":401,"column":4,"endLine":407,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"disableAll","argumentNames":[]}
+particles_disableAll__P1694.info = {"start":12352,"length":195,"line":401,"column":4,"endLine":407,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"disableAll","argumentNames":[]}
+particles_disableAll__P1694.info = {"start":12352,"length":195,"line":401,"column":4,"endLine":407,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"disableAll","argumentNames":[]}
 
 function particles_disableAll__P1694_mk(s) {
     checkStack(s.depth);
@@ -24249,8 +24249,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P9975.info = {"start":12478,"length":22,"line":404,"column":28,"endLine":404,"endColumn":50,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
-inline__P9975.info = {"start":12478,"length":22,"line":404,"column":28,"endLine":404,"endColumn":50,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P9975.info = {"start":12477,"length":22,"line":404,"column":28,"endLine":404,"endColumn":50,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P9975.info = {"start":12477,"length":22,"line":404,"column":28,"endLine":404,"endColumn":50,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
 
 function inline__P9975_mk(s) {
     checkStack(s.depth);
@@ -24299,8 +24299,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_clearAll__P1693.info = {"start":12081,"length":185,"line":390,"column":4,"endLine":396,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"clearAll","argumentNames":[]}
-particles_clearAll__P1693.info = {"start":12081,"length":185,"line":390,"column":4,"endLine":396,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"clearAll","argumentNames":[]}
+particles_clearAll__P1693.info = {"start":12080,"length":185,"line":390,"column":4,"endLine":396,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"clearAll","argumentNames":[]}
+particles_clearAll__P1693.info = {"start":12080,"length":185,"line":390,"column":4,"endLine":396,"endColumn":5,"fileName":"pxt_modules/game/particles.ts","functionName":"clearAll","argumentNames":[]}
 
 function particles_clearAll__P1693_mk(s) {
     checkStack(s.depth);
@@ -24338,8 +24338,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P9986.info = {"start":12204,"length":14,"line":393,"column":28,"endLine":393,"endColumn":42,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
-inline__P9986.info = {"start":12204,"length":14,"line":393,"column":28,"endLine":393,"endColumn":42,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P9986.info = {"start":12203,"length":14,"line":393,"column":28,"endLine":393,"endColumn":42,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
+inline__P9986.info = {"start":12203,"length":14,"line":393,"column":28,"endLine":393,"endColumn":42,"fileName":"pxt_modules/game/particles.ts","functionName":"inline","argumentNames":["s"]}
 
 function inline__P9986_mk(s) {
     checkStack(s.depth);
@@ -25178,8 +25178,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-controller_Controller_connected__P701.info = {"start":12550,"length":261,"line":405,"column":8,"endLine":410,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this","value"]}
-controller_Controller_connected__P701.info = {"start":12550,"length":261,"line":405,"column":8,"endLine":410,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this","value"]}
+controller_Controller_connected__P701.info = {"start":12556,"length":261,"line":405,"column":8,"endLine":410,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this","value"]}
+controller_Controller_connected__P701.info = {"start":12556,"length":261,"line":405,"column":8,"endLine":410,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this","value"]}
 
 function controller_Controller_connected__P701_mk(s) {
     checkStack(s.depth);
@@ -25253,9 +25253,9 @@ switch (step) {
     return leaveAccessor(s, r0)
   default: oops()
 } } }
-controller_Controller_connected__P700.info = {"start":12477,"length":63,"line":401,"column":8,"endLine":403,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this"]}
+controller_Controller_connected__P700.info = {"start":12483,"length":63,"line":401,"column":8,"endLine":403,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this"]}
 controller_Controller_connected__P700.isGetter = true;
-controller_Controller_connected__P700.info = {"start":12477,"length":63,"line":401,"column":8,"endLine":403,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this"]}
+controller_Controller_connected__P700.info = {"start":12483,"length":63,"line":401,"column":8,"endLine":403,"endColumn":9,"fileName":"pxt_modules/game/controller.ts","functionName":"connected","argumentNames":["this"]}
 
 function controller_Controller_connected__P700_mk(s) {
     checkStack(s.depth);
@@ -29757,8 +29757,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_registerObstacle__P780.info = {"start":25913,"length":650,"line":783,"column":4,"endLine":798,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"registerObstacle","argumentNames":["this","direction","other"]}
-Sprite_registerObstacle__P780.info = {"start":25913,"length":650,"line":783,"column":4,"endLine":798,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"registerObstacle","argumentNames":["this","direction","other"]}
+Sprite_registerObstacle__P780.info = {"start":25889,"length":650,"line":783,"column":4,"endLine":798,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"registerObstacle","argumentNames":["this","direction","other"]}
+Sprite_registerObstacle__P780.info = {"start":25889,"length":650,"line":783,"column":4,"endLine":798,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"registerObstacle","argumentNames":["this","direction","other"]}
 
 function Sprite_registerObstacle__P780_mk(s) {
     checkStack(s.depth);
@@ -29802,8 +29802,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11332.info = {"start":26291,"length":26,"line":790,"column":24,"endLine":790,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
-inline__P11332.info = {"start":26291,"length":26,"line":790,"column":24,"endLine":790,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11332.info = {"start":26267,"length":26,"line":790,"column":24,"endLine":790,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11332.info = {"start":26267,"length":26,"line":790,"column":24,"endLine":790,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
 
 function inline__P11332_mk(s) {
     checkStack(s.depth);
@@ -29851,8 +29851,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11338.info = {"start":26344,"length":20,"line":791,"column":25,"endLine":791,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
-inline__P11338.info = {"start":26344,"length":20,"line":791,"column":25,"endLine":791,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11338.info = {"start":26320,"length":20,"line":791,"column":25,"endLine":791,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11338.info = {"start":26320,"length":20,"line":791,"column":25,"endLine":791,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
 
 function inline__P11338_mk(s) {
     checkStack(s.depth);
@@ -29889,8 +29889,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11346.info = {"start":26472,"length":26,"line":795,"column":24,"endLine":795,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
-inline__P11346.info = {"start":26472,"length":26,"line":795,"column":24,"endLine":795,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11346.info = {"start":26448,"length":26,"line":795,"column":24,"endLine":795,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11346.info = {"start":26448,"length":26,"line":795,"column":24,"endLine":795,"endColumn":50,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
 
 function inline__P11346_mk(s) {
     checkStack(s.depth);
@@ -29938,8 +29938,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11352.info = {"start":26525,"length":20,"line":796,"column":25,"endLine":796,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
-inline__P11352.info = {"start":26525,"length":20,"line":796,"column":25,"endLine":796,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11352.info = {"start":26501,"length":20,"line":796,"column":25,"endLine":796,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
+inline__P11352.info = {"start":26501,"length":20,"line":796,"column":25,"endLine":796,"endColumn":45,"fileName":"pxt_modules/game/sprite.ts","functionName":"inline","argumentNames":["h"]}
 
 function inline__P11352_mk(s) {
     checkStack(s.depth);
@@ -31704,9 +31704,9 @@ switch (step) {
     return leaveAccessor(s, r0)
   default: oops()
 } } }
-Sprite_bottom__P763.info = {"start":9190,"length":59,"line":336,"column":4,"endLine":338,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this"]}
+Sprite_bottom__P763.info = {"start":9166,"length":59,"line":336,"column":4,"endLine":338,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this"]}
 Sprite_bottom__P763.isGetter = true;
-Sprite_bottom__P763.info = {"start":9190,"length":59,"line":336,"column":4,"endLine":338,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this"]}
+Sprite_bottom__P763.info = {"start":9166,"length":59,"line":336,"column":4,"endLine":338,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this"]}
 
 function Sprite_bottom__P763_mk(s) {
     checkStack(s.depth);
@@ -31895,8 +31895,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_overlapsWith__P775.info = {"start":23457,"length":434,"line":714,"column":4,"endLine":722,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"overlapsWith","argumentNames":["this","other"]}
-Sprite_overlapsWith__P775.info = {"start":23457,"length":434,"line":714,"column":4,"endLine":722,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"overlapsWith","argumentNames":["this","other"]}
+Sprite_overlapsWith__P775.info = {"start":23433,"length":434,"line":714,"column":4,"endLine":722,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"overlapsWith","argumentNames":["this","other"]}
+Sprite_overlapsWith__P775.info = {"start":23433,"length":434,"line":714,"column":4,"endLine":722,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"overlapsWith","argumentNames":["this","other"]}
 
 function Sprite_overlapsWith__P775_mk(s) {
     checkStack(s.depth);
@@ -32738,8 +32738,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_clearObstacles__P779.info = {"start":25853,"length":54,"line":779,"column":4,"endLine":781,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"clearObstacles","argumentNames":["this"]}
-Sprite_clearObstacles__P779.info = {"start":25853,"length":54,"line":779,"column":4,"endLine":781,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"clearObstacles","argumentNames":["this"]}
+Sprite_clearObstacles__P779.info = {"start":25829,"length":54,"line":779,"column":4,"endLine":781,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"clearObstacles","argumentNames":["this"]}
+Sprite_clearObstacles__P779.info = {"start":25829,"length":54,"line":779,"column":4,"endLine":781,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"clearObstacles","argumentNames":["this"]}
 
 function Sprite_clearObstacles__P779_mk(s) {
     checkStack(s.depth);
@@ -33330,8 +33330,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-particles_ParticleSource_drawParticle__P1676.info = {"start":8598,"length":174,"line":286,"column":8,"endLine":288,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"drawParticle","argumentNames":["this","p","screenLeft","screenTop"]}
-particles_ParticleSource_drawParticle__P1676.info = {"start":8598,"length":174,"line":286,"column":8,"endLine":288,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"drawParticle","argumentNames":["this","p","screenLeft","screenTop"]}
+particles_ParticleSource_drawParticle__P1676.info = {"start":8597,"length":174,"line":286,"column":8,"endLine":288,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"drawParticle","argumentNames":["this","p","screenLeft","screenTop"]}
+particles_ParticleSource_drawParticle__P1676.info = {"start":8597,"length":174,"line":286,"column":8,"endLine":288,"endColumn":9,"fileName":"pxt_modules/game/particles.ts","functionName":"drawParticle","argumentNames":["this","p","screenLeft","screenTop"]}
 
 function particles_ParticleSource_drawParticle__P1676_mk(s) {
     checkStack(s.depth);
@@ -33948,8 +33948,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_toString__P785.info = {"start":31729,"length":93,"line":937,"column":4,"endLine":939,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"toString","argumentNames":["this"]}
-Sprite_toString__P785.info = {"start":31729,"length":93,"line":937,"column":4,"endLine":939,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"toString","argumentNames":["this"]}
+Sprite_toString__P785.info = {"start":31705,"length":93,"line":937,"column":4,"endLine":939,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"toString","argumentNames":["this"]}
+Sprite_toString__P785.info = {"start":31705,"length":93,"line":937,"column":4,"endLine":939,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"toString","argumentNames":["this"]}
 
 function Sprite_toString__P785_mk(s) {
     checkStack(s.depth);
@@ -34300,8 +34300,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite___update__P773.info = {"start":21234,"length":1390,"line":648,"column":4,"endLine":687,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__update","argumentNames":["this","camera","dt"]}
-Sprite___update__P773.info = {"start":21234,"length":1390,"line":648,"column":4,"endLine":687,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__update","argumentNames":["this","camera","dt"]}
+Sprite___update__P773.info = {"start":21210,"length":1390,"line":648,"column":4,"endLine":687,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__update","argumentNames":["this","camera","dt"]}
+Sprite___update__P773.info = {"start":21210,"length":1390,"line":648,"column":4,"endLine":687,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__update","argumentNames":["this","camera","dt"]}
 
 function Sprite___update__P773_mk(s) {
     checkStack(s.depth);
@@ -34446,8 +34446,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_isOutOfScreen__P771.info = {"start":19481,"length":358,"line":602,"column":4,"endLine":606,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"isOutOfScreen","argumentNames":["this","camera"]}
-Sprite_isOutOfScreen__P771.info = {"start":19481,"length":358,"line":602,"column":4,"endLine":606,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"isOutOfScreen","argumentNames":["this","camera"]}
+Sprite_isOutOfScreen__P771.info = {"start":19457,"length":358,"line":602,"column":4,"endLine":606,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"isOutOfScreen","argumentNames":["this","camera"]}
+Sprite_isOutOfScreen__P771.info = {"start":19457,"length":358,"line":602,"column":4,"endLine":606,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"isOutOfScreen","argumentNames":["this","camera"]}
 
 function Sprite_isOutOfScreen__P771_mk(s) {
     checkStack(s.depth);
@@ -34515,8 +34515,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_bottom__P764.info = {"start":9342,"length":73,"line":341,"column":4,"endLine":343,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this","value"]}
-Sprite_bottom__P764.info = {"start":9342,"length":73,"line":341,"column":4,"endLine":343,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this","value"]}
+Sprite_bottom__P764.info = {"start":9318,"length":73,"line":341,"column":4,"endLine":343,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this","value"]}
+Sprite_bottom__P764.info = {"start":9318,"length":73,"line":341,"column":4,"endLine":343,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"bottom","argumentNames":["this","value"]}
 
 function Sprite_bottom__P764_mk(s) {
     checkStack(s.depth);
@@ -36149,8 +36149,8 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-Sprite___drawCore__P772.info = {"start":19845,"length":1383,"line":608,"column":4,"endLine":646,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__drawCore","argumentNames":["this","camera"]}
-Sprite___drawCore__P772.info = {"start":19845,"length":1383,"line":608,"column":4,"endLine":646,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__drawCore","argumentNames":["this","camera"]}
+Sprite___drawCore__P772.info = {"start":19821,"length":1383,"line":608,"column":4,"endLine":646,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__drawCore","argumentNames":["this","camera"]}
+Sprite___drawCore__P772.info = {"start":19821,"length":1383,"line":608,"column":4,"endLine":646,"endColumn":5,"fileName":"pxt_modules/game/sprite.ts","functionName":"__drawCore","argumentNames":["this","camera"]}
 
 function Sprite___drawCore__P772_mk(s) {
     checkStack(s.depth);
@@ -38369,7 +38369,7 @@ const tiles_Location__C1015_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["mySprite___15448"])
+const breakpoints = setupDebugger(1, ["mySprite___15582"])
 
-return _main___P15488
+return _main___P15578
 })
