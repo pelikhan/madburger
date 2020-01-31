@@ -1,4 +1,4 @@
-// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.13","target":"arcade","targetVersion":"0.16.23","repo":"pelikhan/madburger"}
+// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.14","target":"arcade","targetVersion":"0.16.26","repo":"pelikhan/madburger"}
 // total=1174159 new=6.21% cached=88.45% other=5.34%
 (function (ectx) {
 'use strict';
@@ -375,7 +375,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P15462(s) {
+function _main___P15435(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -749,7 +749,7 @@ switch (step) {
     globals.mySprite___3630 = (r0);
     s.tmp_0 = controller_moveSprite__P711_mk(s);
     s.tmp_0.arg0 = globals.mySprite___3630;
-    s.tmp_0.arg1 = 1001;
+    s.tmp_0.arg1 = 1021;
     s.tmp_0.arg2 = 10024;
     s.pc = 33; return s.tmp_0;
   case 33:
@@ -758,14 +758,14 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P15462.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P15462.continuations = [  ]
-_main___P15462.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P15435.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P15435.continuations = [  ]
+_main___P15435.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
 
-function _main___P15462_mk(s) {
+function _main___P15435_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P15462, depth: s.depth + 1,
+        parent: s, fn: _main___P15435, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -38371,5 +38371,5 @@ const tiles_Location__C1015_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["mySprite___3630"])
 
-return _main___P15462
+return _main___P15435
 })
