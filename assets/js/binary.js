@@ -1,5 +1,5 @@
-// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.15","target":"arcade","targetVersion":"0.16.26","repo":"pelikhan/madburger"}
-// total=1174163 new=6.21% cached=88.45% other=5.34%
+// meta={"simUrl":"/sim/simulator.html","cdnUrl":"/cdn/","version":"0.0.16","target":"arcade","targetVersion":"0.16.26","repo":"pelikhan/madburger"}
+// total=1174162 new=6.21% cached=88.45% other=5.34%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -750,7 +750,7 @@ switch (step) {
     s.tmp_0 = controller_moveSprite__P711_mk(s);
     s.tmp_0.arg0 = globals.mySprite___15502;
     s.tmp_0.arg1 = 102;
-    s.tmp_0.arg2 = 10024;
+    s.tmp_0.arg2 = 1002;
     s.pc = 33; return s.tmp_0;
   case 33:
     r0 = s.retval;
