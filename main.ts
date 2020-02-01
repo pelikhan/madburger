@@ -32,4 +32,4 @@ f 6 6 d d f f f f f e e e f f e f f e e e e e f f e e d b 4 6 e
 . . . . . . . . . f f f f f f f c c c c c e e . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Food)
-controller.moveSprite(mySprite, 102, 1002)
+controller.moveSprite(mySprite, 1026, 1002)
