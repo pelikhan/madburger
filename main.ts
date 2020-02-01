@@ -70,7 +70,7 @@ let mySprite2 = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
 game.onUpdate(function () {
-	
+    controller.moveSprite(null)
 })
 game.onUpdateInterval(500, function () {
 	
