@@ -65,4 +65,4 @@ f 6 6 d d f f f f f e e e f f e f f e e e e e f f e e d b 4 6 e
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="@4~_a87}fZ@3tGa8zKbY"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="@4~_a87}fZ@3tGa8zKbY"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block><block type="gameupdate" id="]rg+k2k;4tR-kvTiUGY2" x="150" y="370"/><block type="gameinterval" id="}@)R5)1e2y@(}Pl/^a.[" x="350" y="390"><value name="period"><shadow type="timePicker" id="R8=yKKU7LhXkXXODLsd,"><field name="ms">500</field></shadow></value></block></xml>
