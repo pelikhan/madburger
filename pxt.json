@@ -1,6 +1,6 @@
 {
     "name": "madburger",
-    "version": "0.0.24",
+    "version": "0.0.20",
     "description": "",
     "dependencies": {
         "device": "*"
