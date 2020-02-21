@@ -50,7 +50,6 @@ let mySprite3 = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
-controller.moveSprite(mySprite, 11, 24)
 let mySprite2 = sprites.create(img`
 . . . . . . . . . . . . . . e e e e e e e . . . . . . . . . . . 
 . . . . . . . . . . . . e e 4 5 5 6 6 2 e 2 e . . . . . . . . . 
@@ -85,3 +84,4 @@ e 4 e f e f f f 5 d 5 d 5 5 5 5 5 d 4 e . . . . . . . . . . . .
 . . . . . e e e e e e e . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+controller.moveSprite(mySprite, 11, 24)
