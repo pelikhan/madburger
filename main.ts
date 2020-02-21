@@ -32,7 +32,28 @@ f 6 6 d d f f f f f e e e f f e f f e e e e e f f e e d b 4 6 e
 . . . . . . . . . f f f f f f f c c c c c e e . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Food)
-controller.moveSprite(mySprite, 11, 23)
-mySprite.setVelocity(51, 51)
-mySprite.setVelocity(51, 51)
+let mySprite3 = sprites.create(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, SpriteKind.Player)
 controller.moveSprite(mySprite, 11, 24)
+game.onUpdateInterval(510, function () {
+    controller.moveSprite(null)
+})
+game.onUpdate(function () {
+	
+})
