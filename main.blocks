@@ -37,15 +37,15 @@ f 6 6 d d f f f f f e e e f f e f f e e e e e f f e e d b 4 6 e
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . . 3 3 3 . . . . . . . . 
+. . . . . 3 . . . . . . . . . . 
+. . . . . 3 . . . . . . . . . . 
+. . . . . 3 . . . . . . . . . . 
+. . . . 3 . . . . . . . . . . . 
+. . . . 3 . . . . . . . . . . . 
+. . . . 3 . . . . . . . 3 . . . 
+. . . . . 3 3 . . . . . 3 . . . 
+. . . . . . 3 3 3 . . . 3 . . . 
+. . . . . . . . . 3 3 3 3 . . . 
 . . . . . . . . . . . . . . . . 
 `</field></shadow></value><value name="kind"><shadow type="spritekind" id="sz]caETcm)UHD#)|qb:M"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="B9JT9E{,CH!o8|2h]:a4"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><shadow type="variables_get" id="9BU$AR:G(tfUuAwlP2jy"><field name="VAR" id="@HwGB~.:6kbPEcqqRp=S">mySprite</field></shadow></value><value name="vx"><shadow type="math_number" id="{3KpAyB55:i7jy;`{MSJ"><field name="NUM">11</field></shadow></value><value name="vy"><shadow type="math_number" id="IN*uQGVxiFK{!@~Y+mTz"><field name="NUM">24</field></shadow></value></block></next></block></next></block></statement></block><block type="gameinterval" id="4NOmd@q(}U`zac2HqS,K" x="607" y="0"><value name="period"><shadow type="timePicker" id="d2R;Dgz:BR8CfHxk@F^v"><field name="ms">510</field></shadow></value><statement name="HANDLER"><block type="game_control_sprite" id="I[U/2j[[zr?*t.)bB.`#"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><shadow type="variables_get"/><block type="typescript_expression" id="t^YNx@#3/Uyte*S`R_e{" editable="false"><field name="EXPRESSION">null</field></block></value></block></statement></block><block type="gameupdate" id="}#(}1]REqlgm|`_42?E8" x="0" y="305"/></xml>
