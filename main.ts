@@ -50,6 +50,24 @@ let mySprite3 = sprites.create(img`
 . . . . . . . . . 3 3 3 3 . . . 
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+let mySprite2 = sprites.create(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, SpriteKind.Player)
 controller.moveSprite(mySprite, 11, 24)
 game.onUpdateInterval(510, function () {
     controller.moveSprite(null)
