@@ -1,4 +1,4 @@
-let mySprite = sprites.create(img`
+let mySprite3 = sprites.create(img`
 . . . . . . . . . . . c c c c c 6 6 6 6 6 . . . . . . . . . . . 
 . . . . . . . . c c c 4 4 4 4 4 4 4 4 4 4 6 6 6 . . . . . . . . 
 . . . . . . c c 4 4 4 4 4 4 4 4 4 b b 4 4 4 4 4 6 6 . . . . . . 
@@ -32,7 +32,7 @@ f 6 6 d d f f f f f e e e f f e f f e e e e e f f e e d b 4 6 e
 . . . . . . . . . f f f f f f f c c c c c e e . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Food)
-let mySprite3 = sprites.create(img`
+let mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -50,7 +50,6 @@ let mySprite3 = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
-controller.moveSprite(mySprite, 11, 24)
 let mySprite2 = sprites.create(img`
 . . . . . . . . . . . . . . e e e e e e e . . . . . . . . . . . 
 . . . . . . . . . . . . e e 4 5 5 6 6 2 e 2 e . . . . . . . . . 
@@ -85,3 +84,4 @@ e 4 e f e f f f 5 d 5 d 5 5 5 5 5 d 4 e . . . . . . . . . . . .
 . . . . . e e e e e e e . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+controller.moveSprite(mySprite, 11, 24)
